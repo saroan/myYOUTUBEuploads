@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    background: #bbb;
+}
+
+
+.contenedor{
+    align-content: center;
+    justify-content: center;
+    display: grid;
+    height: 100vh;
+}
+
+.btn{
+    border: 3px solid rgba(100, green, blue, alpha);
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 300px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #EEE;
+    background-size: 300%;
+    transform: 0.6s;
+}
+
+.btn:hover{
+    background-position: right;
+}
+
+btn1{
+    background-image: linear-gradient(to left, #00b6da, #132447, #86da00);
+}
+
+btn2{
+    background-image: linear-gradient(to left, #da0000, #134713, #004cda);
+}
+
+
+btn3{
+    background-image: linear-gradient(to left, #da00c1, #471b13, #da004c);
+}
+
+
+btn4{
+    background-image: linear-gradient(to left, #00cbda, #ff2600, #714152);
+}

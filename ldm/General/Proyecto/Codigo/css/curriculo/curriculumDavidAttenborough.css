@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+/* estilo universal,
+para el documento html,
+y esto para que nos reconozca en los diferentes navegadores */
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+hr.solid {
+  border-top: 3px solid #bbb;}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+div.container {
+  text-align: center;
+}
+
+ol.myOL {
+  display: inline-block;
+  text-align: left;
+}
